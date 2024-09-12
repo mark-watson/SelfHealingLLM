@@ -1,9 +1,8 @@
 import os
 import time
-from dotenv import load_dotenv
 from openai_module import send_openai_request
 from claude_module import send_claude_request
-from utils import format_output, calculate_similarity
+from utils import format_output
 
 
 def main():
